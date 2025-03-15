@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
 import Technology from "./components/Technology";
@@ -6,12 +5,14 @@ import Projects from "./components/Projects";
 import { motion } from "framer-motion";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+import Experience from "./components/Experience";
 
 const App = () => {
   return <div className="bg-gradient-to-r from-[#a9b3dd] to-[#ebebf1] w-screen">
     <div className=" flex flex-col">
     <Navbar/>
     <Profile/>
+    <Experience/>
     <Technology/>
     <Projects/>
     <div className=" m-auto p-5">
@@ -26,6 +27,9 @@ const App = () => {
        whileInView={{opacity:1,x:0}}
        initial={{opacity:0,x:-100}}
        transition={{duration:2}}
+       href="https://mail.google.com/mail/?view=cm&fs=1&to=kavalipavan22@gmail.com"
+       target="_blank"
+       rel="noopener noreferrer"
           className=" pl-4 text-xl flex items-center gap-2 hover:underline  hover:text-blue-600 cursor-pointer "><MdEmail />kavalipavan22@gmail.com</motion.a>
      
 
