@@ -1,5 +1,3 @@
-import React from "react";
-import profileim from '../assets/about.jpg'
 import { motion } from "framer-motion";
 import HeroImage from "./HeroImage";
 import TypingEffect from "./TypingEffect";
