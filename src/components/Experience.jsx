@@ -10,9 +10,9 @@ const Experience = () => {
       company: "CoinHarbour",
       duration: "17 Feb 2025 – 18 March 2025",
       responsibilities: [
-        "Collaborated with the co-founder to develop and deploy the company's landing page from scratch.",
-        "Built a responsive website with animations to enhance user experience.",
-        "Contributed to the user dashboard by adding features and ensuring full responsiveness.",
+        "Collaborated closely with the co-founder to develop, enhance, and deploy multiple projects.",
+        "Built a highly responsive website with dynamic animations, improving user engagement and experience.",
+        "Developed and integrated new features using TypeScript, Docker, and the MERN stack, ensuring full responsiveness and optimal performance.",
       ],
     },
   ]
